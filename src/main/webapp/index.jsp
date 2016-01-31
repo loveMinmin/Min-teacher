@@ -21,6 +21,8 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
   </head>
   
   <body>
-    This is my JSP page. <br>
+    Spring core + Spring MVC + MyBatis <br>
+    
+    <a href="<%=path %>/muserController/listUser.do">User List</a>
   </body>
 </html>
